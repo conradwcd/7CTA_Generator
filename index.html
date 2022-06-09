@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>7 CTA Generator</title>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <span>7 CTA Generator</span>
+      <span>Common 320px CTAs:</span>
+      <span><a href="javascript:void(0);" id="EN_Toggle" style="color:#fff;">EN</a></span>
+      <span><a href="javascript:void(0);" id="FR_Toggle" style="color:#fff;">FR</a></span>
+    </nav>
+  </header>
+
+  <div class="main">
+    <div class="enterForm">
+      <table width="100%">
+        <tr>
+          <td>
+            CTA IMG SRC #1:<br /><input class="input" type="text" id="ctaImg01" name="ctaImg01" placeholder="CTA IMG SRC #1" class="css-input">
+          </td>
+          <td>
+            CTA HREF #1:<br /><input class="input" type="text" id="ctaHref01" name="ctaHref01" placeholder="CTA HREF #1" class="css-input">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            CTA IMG SRC #2:<br /><input class="input" type="text" id="ctaImg02" name="ctaImg02" placeholder="CTA IMG SRC #2" class="css-input">
+          </td>
+          <td>
+            CTA HREF #2:<br /><input class="input" type="text" id="ctaHref02" name="ctaHref02" placeholder="CTA HREF #2" class="css-input">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            CTA IMG SRC #3:<br /><input class="input" type="text" id="ctaImg03" name="ctaImg03" placeholder="CTA IMG SRC #3" class="css-input">
+          </td>
+          <td>
+            CTA HREF #3:<br /><input class="input" type="text" id="ctaHref03" name="ctaHref03" placeholder="CTA HREF #3" class="css-input">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            CTA IMG SRC #4:<br /><input class="input" type="text" id="ctaImg04" name="ctaImg04" placeholder="CTA IMG SRC #4" class="css-input">
+          </td>
+          <td>
+            CTA HREF #4:<br /><input class="input" type="text" id="ctaHref04" name="ctaHref04" placeholder="CTA HREF #4" class="css-input">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            CTA IMG SRC #5:<br /><input class="input" type="text" id="ctaImg05" name="ctaImg05" placeholder="CTA IMG SRC #5" class="css-input">
+          </td>
+          <td>
+            CTA HREF #5:<br /><input class="input" type="text" id="ctaHref05" name="ctaHref05" placeholder="CTA HREF #5" class="css-input">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            CTA IMG SRC #6:<br /><input class="input" type="text" id="ctaImg06" name="ctaImg06" placeholder="CTA IMG SRC #6" class="css-input">
+          </td>
+          <td>
+            CTA HREF #6:<br /><input class="input" type="text" id="ctaHref06" name="ctaHref06" placeholder="CTA HREF #6" class="css-input">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            CTA IMG SRC #7:<br /><input class="input" type="text" id="ctaImg07" name="ctaImg07" placeholder="CTA IMG SRC #7" class="css-input">
+          </td>
+          <td>
+            CTA HREF #7:<br /><input class="input" type="text" id="ctaHref07" name="ctaHref07" placeholder="CTA HREF #7" class="css-input">
+          </td>
+        </tr>
+      </table>
+      <br />
+      <button id="launch">Build HTML</button>
+    </div>
+    <div class="output">
+      <textarea rows="15" id="formatted"></textarea>
+    </div>
+  </div>
+
+  <div id="EN_CTAS">
+    <ul id="cta_bank_list">
+      <li>
+        <a id="wwp320_en"></a> Women &amp; WP EN - 320px<br>
+        <table>
+          <tr>
+            <td valign="top" style="padding-left: 10px">
+              <button type="button" onclick="copySelect('wwp320_img_url');" class="myButton">Copy Image URL</button><br><textarea cols="50" rows="2" id="wwp320_img_url">https://image.email.oldnavy.com/lib/fe9112747762007b77/m/12/WCD_320_WOMEN_WP_v2_Photog_22px_EN.jpg</textarea><br>
+            </td>
+          </tr>
+        </table>
+      </li>
+      <li>
+        <a id="men320_en"></a> Men EN - 320px<br>
+        <table>
+          <tr>
+            <td valign="top" style="padding-left: 10px">
+              <button type="button" onclick="copySelect('men320_img_url');" class="myButton">Copy Image URL</button><br><textarea cols="50" rows="2" id="men320_img_url">https://image.email.oldnavy.com/lib/fe9112747762007b77/m/12/WCD_320_MEN_v2_Photog_22px_EN.jpg</textarea><br>
+            </td>
+          </tr>
+        </table>
+      </li>
+      <li>
+        <a id="mat320_en"></a> Maternity EN - 320px<br>
+        <table>
+          <tr>
+            <td valign="top" style="padding-left: 10px">
+              <button type="button" onclick="copySelect('mat320_img_url');" class="myButton">Copy Image URL</button><br><textarea cols="50" rows="2" id="mat320_img_url">https://image.email.oldnavy.com/lib/fe9112747762007b77/m/12/WCD_320_MATERNITY_v2_Photog_22px_EN.jpg</textarea><br>
+            </td>
+          </tr>
+        </table>
+      </li>
+      <li>
+        <a id="girls320_en"></a> Girls EN - 320px<br>
+        <table>
+          <tr>
+            <td valign="top" style="padding-left: 10px">
+              <button type="button" onclick="copySelect('girls320_img_url');" class="myButton">Copy Image URL</button><br><textarea cols="50" rows="2" id="girls320_img_url">https://image.email.oldnavy.com/lib/fe9112747762007b77/m/12/WCD_320_GIRLS_v2_Photog_22px_EN.jpg</textarea><br>
+            </td>
+          </tr>
+        </table>
+      </li>
+
+      <li>
+        <a id="boys320_en"></a> Boys EN - 320px<br>
+        <table>
+          <tr>
+            <td valign="top" style="padding-left: 10px">
+              <button type="button" onclick="copySelect('boys320_img_url');" class="myButton">Copy Image URL</button><br><textarea cols="50" rows="2" id="boys320_img_url">https://image.email.oldnavy.com/lib/fe9112747762007b77/m/12/WCD_320_BOYS_v2_Photog_22px_EN.jpg</textarea><br>
+            </td>
+          </tr>
+        </table>
+      </li>
+      <li>
+        <a id="tg320_en"></a> Toddler Girls EN - 320px<br>
+        <table>
+          <tr>
+            <td valign="top" style="padding-left: 10px">
+              <button type="button" onclick="copySelect('tg320_img_url');" class="myButton">Copy Image URL</button><br><textarea cols="50" rows="2" id="tg320_img_url">https://image.email.oldnavy.com/lib/fe9112747762007b77/m/12/WCD_320_TODDLER_GIRLS_v2_Photog_22px_EN.jpg</textarea><br>
+            </td>
+          </tr>
+        </table>
+      </li>
+      <li>
+        <a id="tb320_en"></a> Toddler Boys EN - 320px<br>
+        <table>
+          <tr>
+            <td valign="top" style="padding-left: 10px">
+              <button type="button" onclick="copySelect('tb320_img_url');" class="myButton">Copy Image URL</button><br><textarea cols="50" rows="2" id="tb320_img_url">https://image.email.oldnavy.com/lib/fe9112747762007b77/m/12/WCD_320_TODDLER_BOYS_v2_Photog_22px_EN.jpg</textarea><br>
+            </td>
+          </tr>
+        </table>
+      </li>
+      <li>
+        <a id="bg320_en"></a> Baby Girls EN - 320px<br>
+        <table>
+          <tr>
+            <td valign="top" style="padding-left: 10px">
+              <button type="button" onclick="copySelect('bg320_img_url');" class="myButton">Copy Image URL</button><br><textarea cols="50" rows="2" id="bg320_img_url">https://image.email.oldnavy.com/lib/fe9112747762007b77/m/12/WCD_320_BABY_GIRLS_v2_Photog_22px_EN.jpg</textarea><br>
+            </td>
+          </tr>
+        </table>
+      </li>
+      <li>
+        <a id="bb320_en"></a> Baby Boys EN - 320px<br>
+        <table>
+          <tr>
+            <td valign="top" style="padding-left: 10px">
+              <button type="button" onclick="copySelect('bb320_img_url');" class="myButton">Copy Image URL</button><br><textarea cols="50" rows="2" id="bb320_img_url">https://image.email.oldnavy.com/lib/fe9112747762007b77/m/12/WCD_320_BABY_BOYS_v2_Photog_22px_EN.jpg</textarea><br>
+            </td>
+          </tr>
+        </table>
+      </li>
+      <li>
+        <a id="shopnow320_en"></a> Shop Now EN - 320px<br>
+        <table>
+          <tr>
+            <td valign="top" style="padding-left: 10px">
+              <button type="button" onclick="copySelect('shopnow320_img_url');" class="myButton">Copy Image URL</button><br><textarea cols="50" rows="2" id="shopnow320_img_url">https://image.email.oldnavy.com/lib/fe9112747762007b77/m/12/WCD_320_SHOP_NOW_v2_Photog_22px_EN.jpg</textarea><br>
+            </td>
+          </tr>
+        </table>
+      </li>
+      <li>
+        <a id="shopna320_en"></a> Shop New Arrivals EN - 320px<br>
+        <table>
+          <tr>
+            <td valign="top" style="padding-left: 10px">
+              <button type="button" onclick="copySelect('shopna320_img_url');" class="myButton">Copy Image URL</button><br><textarea cols="50" rows="2" id="shopna320_img_url">https://image.email.oldnavy.com/lib/fe9112747762007b77/m/12/WCD_320_SHOP_NEW_ARRIVALS_v2_Photog_22px_EN.jpg</textarea><br>
+            </td>
+          </tr>
+        </table>
+      </li>
+      <li>
+        <a id="findastore320_en"></a> Find A Store EN - 320px<br>
+        <table>
+          <tr>
+            <td valign="top" style="padding-left: 10px">
+              <button type="button" onclick="copySelect('findastore320_img_url');" class="myButton">Copy Image URL</button><br><textarea cols="50" rows="2" id="findastore320_img_url">https://image.email.oldnavy.com/lib/fe9112747762007b77/m/12/WCD_320_FINDSTORE_v2_Photog_22px_EN.jpg</textarea><br>
+            </td>
+          </tr>
+        </table>
+      </li>
+      <li>
+        <a id="stylespicked320_en"></a> Styles Picked Just For You EN - 320px<br>
+        <table>
+          <tr>
+            <td valign="top" style="padding-left: 10px">
+              <button type="button" onclick="copySelect('stylespicked320_img_url');" class="myButton">Copy Image URL</button><br><textarea cols="50" rows="2" id="stylespicked320_img_url">https://image.email.oldnavy.com/lib/fe9112747762007b77/m/12/WCD_320_STYLES_PICKED_Photog_22px_EN.jpg</textarea><br>
+            </td>
+          </tr>
+        </table>
+      </li>
+    </ul>
+  </div>
+
+  <div id="FR_CTAS">
+    <ul id="cta_bank_list">
+      <li>
+        <a id="wwp320_fr"></a> Women &amp; WP FR - 320px<br>
+        <table>
+          <tr>
+            <td valign="top" style="padding-left: 10px">
+              <button type="button" onclick="copySelect('wwp320fr_img_url');" class="myButton">Copy Image URL</button><br><textarea cols="50" rows="2" id="wwp320fr_img_url">https://image.email.oldnavy.ca/lib/fe9012747762007b76/m/15/f3a619a9-c5a4-44cc-8c04-3f9c3e861723.jpg</textarea><br>
+            </td>
+          </tr>
+        </table>
+      </li>
+
+      <li>
+        <a id="men320_fr"></a> Men FR - 320px<br>
+        <table>
+          <tr>
+            <td valign="top" style="padding-left: 10px">
+              <button type="button" onclick="copySelect('men320fr_img_url');" class="myButton">Copy Image URL</button><br><textarea cols="50" rows="2" id="men320fr_img_url">https://image.email.oldnavy.ca/lib/fe9012747762007b76/m/9/d2b95473-abae-4f5e-a724-ae45d157432f.jpg</textarea><br>
+            </td>
+          </tr>
+        </table>
+      </li>
+
+      <li>
+        <a id="mat320_fr"></a> Maternity FR - 320px<br>
+        <table>
+          <tr>
+            <td valign="top" style="padding-left: 10px">
+              <button type="button" onclick="copySelect('mat320fr_img_url');" class="myButton">Copy Image URL</button><br><textarea cols="50" rows="2" id="mat320fr_img_url">https://image.email.oldnavy.ca/lib/fe9012747762007b76/m/9/d3f85921-46f8-4c65-9628-0e7253afa050.jpg</textarea><br>
+            </td>
+          </tr>
+        </table>
+      </li>
+
+      <li>
+        <a id="girls320_fr"></a> Girls FR - 320px<br>
+        <table>
+          <tr>
+            <td valign="top" style="padding-left: 10px">
+              <button type="button" onclick="copySelect('girls320fr_img_url');" class="myButton">Copy Image URL</button><br><textarea cols="50" rows="2" id="girls320fr_img_url">https://image.email.oldnavy.ca/lib/fe9012747762007b76/m/9/f4969b9e-c8c1-4234-aecd-0e744124ebc3.jpg</textarea><br>
+            </td>
+          </tr>
+        </table>
+      </li>
+
+      <li>
+        <a id="boys320_fr"></a> Boys FR - 320px<br>
+        <table>
+          <tr>
+            <td valign="top" style="padding-left: 10px">
+              <button type="button" onclick="copySelect('boys320fr_img_url');" class="myButton">Copy Image URL</button><br><textarea cols="50" rows="2" id="boys320fr_img_url">https://image.email.oldnavy.ca/lib/fe9012747762007b76/m/9/ba4155a0-725a-48ea-80f5-97da82495e2f.jpg</textarea><br>
+            </td>
+          </tr>
+        </table>
+      </li>
+
+      <li>
+        <a id="tg320_fr"></a> Toddler Girls FR - 320px<br>
+        <table>
+          <tr>
+            <td valign="top" style="padding-left: 10px">
+              <button type="button" onclick="copySelect('tg320fr_img_url');" class="myButton">Copy Image URL</button><br><textarea cols="50" rows="2" id="tg320fr_img_url">https://image.email.oldnavy.ca/lib/fe9012747762007b76/m/9/26994452-e8cc-4abe-afdd-8bcc3c0cc218.jpg</textarea><br>
+            </td>
+          </tr>
+        </table>
+      </li>
+
+      <li>
+        <a id="tb320_fr"></a> Toddler Boys FR - 320px<br>
+        <table>
+          <tr>
+            <td valign="top" style="padding-left: 10px">
+              <button type="button" onclick="copySelect('tb320fr_img_url');" class="myButton">Copy Image URL</button><br><textarea cols="50" rows="2" id="tb320fr_img_url">https://image.email.oldnavy.ca/lib/fe9012747762007b76/m/9/ea362b99-0bf9-4ec2-9157-08df9bea32ce.jpg</textarea><br>
+            </td>
+          </tr>
+        </table>
+      </li>
+
+      <li>
+        <a id="bg320_fr"></a> Baby Girls FR - 320px<br>
+        <table>
+          <tr>
+            <td valign="top" style="padding-left: 10px">
+              <button type="button" onclick="copySelect('bg320fr_img_url');" class="myButton">Copy Image URL</button><br><textarea cols="50" rows="2" id="bg320fr_img_url">https://image.email.oldnavy.ca/lib/fe9012747762007b76/m/9/142f81b4-13bd-4397-ac3b-e0436ed2b9a7.jpg</textarea><br>
+            </td>
+          </tr>
+        </table>
+      </li>
+
+      <li>
+        <a id="bb320_fr"></a> Baby Boys FR - 320px<br>
+        <table>
+          <tr>
+            <td valign="top" style="padding-left: 10px">
+              <button type="button" onclick="copySelect('bb320fr_img_url');" class="myButton">Copy Image URL</button><br><textarea cols="50" rows="2" id="bb320fr_img_url">https://image.email.oldnavy.ca/lib/fe9012747762007b76/m/9/eaa08675-293e-4be0-a569-2468573debbc.jpg</textarea><br>
+            </td>
+          </tr>
+        </table>
+      </li>
+
+      <li>
+        <a id="shopnow320_fr"></a> Shop Now FR - 320px<br>
+        <table>
+          <tr>
+            <td valign="top" style="padding-left: 10px">
+              <button type="button" onclick="copySelect('shopnow320fr_img_url');" class="myButton">Copy Image URL</button><br><textarea cols="50" rows="2" id="shopnow320fr_img_url">https://image.email.oldnavy.ca/lib/fe9012747762007b76/m/9/851f718b-3982-4690-8f3a-b06dc6d733d9.jpg</textarea><br>
+            </td>
+          </tr>
+        </table>
+      </li>
+
+      <li>
+        <a id="shopna320_fr"></a> Shop New Arrivals FR - 320px<br>
+        <table>
+          <tr>
+            <td valign="top" style="padding-left: 10px">
+              <button type="button" onclick="copySelect('shopna320fr_img_url');" class="myButton">Copy Image URL</button><br><textarea cols="50" rows="2" id="shopna320fr_img_url">https://image.email.oldnavy.ca/lib/fe9012747762007b76/m/9/8c720a6c-08f3-459d-96df-c7804e3fa57b.jpg</textarea><br>
+            </td>
+          </tr>
+        </table>
+      </li>
+
+      <li>
+        <a id="findastore320_fr"></a> Find A Store FR - 320px<br>
+        <table>
+          <tr>
+            <td valign="top" style="padding-left: 10px">
+              <button type="button" onclick="copySelect('findastore320fr_img_url');" class="myButton">Copy Image URL</button><br><textarea cols="50" rows="2" id="findastore320fr_img_url">https://image.email.oldnavy.ca/lib/fe9012747762007b76/m/9/aed92f42-2666-42e5-bd1a-c0bea3c41a9a.jpg</textarea><br>
+            </td>
+          </tr>
+        </table>
+      </li>
+      <li>
+        <a id="stylespickedv2320_fr"></a> Styles Picked Just For You v2 FR - 320px<br>
+        <table>
+          <tr>
+            <td valign="top" style="padding-left: 10px">
+              <button type="button" onclick="copySelect('stylespickedv2320fr_img_url');" class="myButton">Copy Image URL</button><br><textarea cols="50" rows="2" id="stylespickedv2320fr_img_url">https://image.email.oldnavy.ca/lib/fe9012747762007b76/m/17/5b188210-ac91-4a82-bfa5-1cb419eb9412.jpg</textarea><br>
+            </td>
+          </tr>
+        </table>
+      </li>
+    </ul>
+  </div>
+
+</body>
+<script src="https://conradpanganiban.com/email_microsite/assets/js/jquery.min.js"></script>
+<script type="text/javascript">
+  var string = '';
+
+  var ctaImg01 = document.querySelector("#ctaImg01");
+  var ctaHref01 = document.querySelector("#ctaHref01");
+  var ctaImg02 = document.querySelector("#ctaImg02");
+  var ctaHref02 = document.querySelector("#ctaHref02");
+  var ctaImg03 = document.querySelector("#ctaImg03");
+  var ctaHref03 = document.querySelector("#ctaHref03");
+  var ctaImg04 = document.querySelector("#ctaImg04");
+  var ctaHref04 = document.querySelector("#ctaHref04");
+  var ctaImg05 = document.querySelector("#ctaImg05");
+  var ctaHref05 = document.querySelector("#ctaHref05");
+  var ctaImg06 = document.querySelector("#ctaImg06");
+  var ctaHref06 = document.querySelector("#ctaHref06");
+  var ctaImg07 = document.querySelector("#ctaImg07");
+  var ctaHref07 = document.querySelector("#ctaHref07");
+
+  var formatted = document.querySelector("#formatted");
+  var launch = document.querySelector("#launch");
+  if (launch) {
+    launch.addEventListener("click", writeHTML, false);
+  }
+
+  function writeHTML() {
+    // reset
+    document.getElementById("formatted").innerHTML = "";
+
+    var copyStory = "";
+
+    copyStory += "<table width=\"640\" align=\"center\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\"> \n"
+    copyStory += "&nbsp;&nbsp;<tr> \n"
+    copyStory += "&nbsp;&nbsp;&nbsp;&nbsp;<td> \n"
+    copyStory += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<table align=\"center\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\"> \n"
+    copyStory += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<tr> \n"
+    copyStory += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<td valign=\"top\"><a href=\"" + ctaHref01.value + "\" target=\"_blank\" alias=\"%%=v(@alias)=%%\"> <img alt=\"Display images to show real-time content\" src=\"" + ctaImg01.value + "\" width=\"160\" style=\"display:block; border:0; font-family:Arial,Helvetica,sans-serif; font-size:10px; color:#ffffff;\" /></a>\n"
+    copyStory += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<td valign=\"top\"><a href=\"" + ctaHref02.value + "\" target=\"_blank\" alias=\"%%=v(@alias)=%%\"> <img alt=\"Display images to show real-time content\" src=\"" + ctaImg02.value + "\" width=\"160\" style=\"display:block; border:0; font-family:Arial,Helvetica,sans-serif; font-size:10px; color:#ffffff;\" /></a>\n"
+    copyStory += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<td valign=\"top\"><a href=\"" + ctaHref03.value + "\" target=\"_blank\" alias=\"%%=v(@alias)=%%\"> <img alt=\"Display images to show real-time content\" src=\"" + ctaImg03.value + "\" width=\"160\" style=\"display:block; border:0; font-family:Arial,Helvetica,sans-serif; font-size:10px; color:#ffffff;\" /></a>\n"
+    copyStory += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<td valign=\"top\"><a href=\"" + ctaHref04.value + "\" target=\"_blank\" alias=\"%%=v(@alias)=%%\"> <img alt=\"Display images to show real-time content\" src=\"" + ctaImg04.value + "\" width=\"160\" style=\"display:block; border:0; font-family:Arial,Helvetica,sans-serif; font-size:10px; color:#ffffff;\" /></a>\n"
+    copyStory += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</tr> \n"
+    copyStory += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</table> \n"
+    copyStory += "&nbsp;&nbsp;&nbsp;&nbsp;</td> \n"
+    copyStory += "&nbsp;&nbsp;</tr> \n"
+    copyStory += "&nbsp;&nbsp;<tr> \n"
+    copyStory += "&nbsp;&nbsp;&nbsp;&nbsp;<td align=\"center\" style=\"padding-bottom: 20px;\"> \n"
+    copyStory += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<table align=\"center\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\"> \n"
+    copyStory += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<tr> \n"
+    copyStory += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<td valign=\"top\"><a href=\"" + ctaHref05.value + "\" target=\"_blank\" alias=\"%%=v(@alias)=%%\"> <img alt=\"Display images to show real-time content\" src=\"" + ctaImg05.value + "\" width=\"160\" style=\"display:block; border:0; font-family:Arial,Helvetica,sans-serif; font-size:10px; color:#ffffff;\" /></a>\n"
+    copyStory += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<td valign=\"top\"><a href=\"" + ctaHref06.value + "\" target=\"_blank\" alias=\"%%=v(@alias)=%%\"> <img alt=\"Display images to show real-time content\" src=\"" + ctaImg06.value + "\" width=\"160\" style=\"display:block; border:0; font-family:Arial,Helvetica,sans-serif; font-size:10px; color:#ffffff;\" /></a>\n"
+    copyStory += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<td valign=\"top\"><a href=\"" + ctaHref07.value + "\" target=\"_blank\" alias=\"%%=v(@alias)=%%\"> <img alt=\"Display images to show real-time content\" src=\"" + ctaImg07.value + "\" width=\"160\" style=\"display:block; border:0; font-family:Arial,Helvetica,sans-serif; font-size:10px; color:#ffffff;\" /></a>\n"
+    copyStory += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</tr> \n"
+    copyStory += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</table> \n"
+    copyStory += "&nbsp;&nbsp;&nbsp;&nbsp;</td> \n"
+    copyStory += "&nbsp;&nbsp;</tr> \n"
+    copyStory += "</table> \n\n"
+
+    formatted.innerHTML = copyStory;
+  }
+
+  jQuery("#EN_Toggle").click(function(){
+    jQuery("#EN_CTAS").toggle();
+    jQuery("#FR_CTAS").hide();
+  });
+
+  jQuery("#FR_Toggle").click(function(){
+    jQuery("#FR_CTAS").toggle();
+    jQuery("#EN_CTAS").hide();
+  });
+
+  function copySelect(img_url_id) {
+    jQuery( "textarea" ).css( "background-color", "#ffffff" );
+    var copyText = document.getElementById(img_url_id);
+    copyText.select();
+    copyText.setSelectionRange(0, 99999)
+    document.execCommand("copy");  document.getElementById(img_url_id).style.backgroundColor = "#a0c6f8";
+    jQuery("#EN_CTAS").hide();
+    jQuery("#FR_CTAS").hide();
+  }
+</script>
+
+</html>
